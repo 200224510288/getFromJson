@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animals_in_srilanka</title>
+    <link rel="icon" href="./Images/logo_p-removebg-preview.png" type="Image/x-icon">
+    <link rel="stylesheet" href="./css-unedit/animals_in_srilanka.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <!-- to display icons on footer -->
+    <!-- alpine.js  -->
+    <script src="//unpkg.com/alpinejs" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet"/>
+
+</head>
+
+<body>
+    <main>
+        <header>
+            <section class="header">
+
+                <section class="navbar">
+                    <img src="./Images/wildlife-haven-high-resolution-logo-white-transparent.png" class="Logo">
+                    <nav>
+                        <input type="checkbox" id="check">
+                        <label for="check" class="checkbtn">
+                            <i class="fa fa-bars"></i>
+                        </label>
+                        <ul>
+                            <li>
+                                <button class="home">
+                                    <a href="index.html">Home</a>
+                                </button>
+                            </li>
+                            <li class="dropdown">
+                                <button class="dropbtn">PLACES</button>
+                                <section class="dropdown-list">
+                                    <a href="6 Yala National Park-unedit.html">1.Yala National Park</a>
+                                    <a href="7 Wilpattu National Park-unedit.html">2.Wilpathu National Park</a>
+                                </section>
+                            </li>
+                            <li class="dropdown">
+                                <button class="dropbtn">SPECIES</button>
+                                <section class="dropdown-list">
+                                    <a href="5 Animals in Sri Lanka-unedit.html">1.Endemic Animals</a>
+                                    <a href="7 Srilankan leopard-unedit.html">2.Srilankan Leopard</a>
+                                </section>
+                            </li>
+                            <li class="dropdown">
+                                <button class="dropbtn">ABOUT Wildlife</button>
+                                <section class="dropdown-list">
+                                    <a href="2 Introduction_page-unedit.html">1.Introduction</a>
+                                    <a href="3 Department of Wildlife Conservation-unedit.html">2.conservation</a>
+                                </section>
+                            </li>
+                            <button class="home">
+                                <a href="newlogin2.html">Login</a>
+                            </button>
+
+                        </ul>
+
+                    </nav>
+                </section>
+        </header>
+        </section>
+        <section class="top page">
+            <section class="row">
+                <section class="col">
+                    <h1>Animals <br>In Srilanka.</h1>
+                    <p>Sri Lanka is home to roughly 123 species of mammals, 41 of which are threatened (9 critically).
+
+                        <br>contains 185 species of reptiles, of which 60 are threatened and 115 are endemic.
+                        <br>
+
+                    </p>
+
+                    <button type="button"
+                        onclick="window.location.href='https://en.wikipedia.org/wiki/Wildlife_of_Sri_Lanka#:~:text=Sri%20Lanka%20is%20home%20to,Lankan%20elephant%20and%20the%20sambar.'"
+                        class="read-more">Learn More</button>
+
+                </section>
+                <section class="col5">
+
+                    <section class="card card1"> 
+                        <a href="6 Yala National Park.html"><h5>Yala National park</h5>
+                        </a>
+                    </section>
+        
+                    <section class="card card2">
+                        <a href="7 Wilpattu National Park.html">
+                            <h5>Wilpattu National Park</h5>
+                        </a>
+                    </section>
+                  
+                </section>
+            </section>
+        </main>
+
+    <section x-data="animalData">
+        <section class="Mammals">
+            <section id="about1" class="heading1">
+                <h1 x-text="h1Mammals"></h1>
+
+                <p x-text="descriptionMammals"></p>
+
+            </section>
+
+            <section class="row1">
+                <section class="col1">
+                    <section class="collage">
+                        <section class="vedio">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/LTJMbQ_Ojfk?si=LzVcVtxQj81RPth-"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </section>
+
+                        <a href="https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8"
+                            class="read-more">Main source
+                        </a>
+                        <img src="./Images/mamals.jpg">
+
+
+                    </section>
+
+                </section>
+                <section class="col1">
+
+
+                    <h2 x-text="h2Mammals"></h2>
+                    <h3 x-text="h3MammalsLeo"></h3>
+                    <p x-text="descriptionMammalsLeo"></p>
+                    <a href="https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8/srilankanleopard--d8dbbf72a303e551afe0fd6c44d31a6f.html"
+                        class="read-more">Main source
+                    </a>
+                    <p><img src="./Images/pard.png"></p>
+
+
+
+
+
+                    <h3 x-text="h3MammalsElephant"></h3>
+                    <p x-text="descriptionMammalsElephant"></p>
+                    <a href="https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8/asianelephant--52afe4d23aac7695b47d0f4c29c47683.html"
+                        class="read-more">Main source</a>
+
+                    <p><img src="./Images/elepant for p.png" alt="owl"></p>
+
+                </section>
+            </section>
+
+
+
+
+        </section>
+
+
+        <section class="birds">
+            <section id="about" class="heading1">
+                <h1 x-text="h1Birds"></h1>
+
+                <p x-text="descriptionBirds"></p>
+
+            </section>
+            <section class="row2">
+                <section class="col2">
+                    <section class="collage1">
+                        <section class="vedio1">
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/y2WsDeI0M8Y?si=Y6u_kNntQztDpiKC"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                allowfullscreen></iframe>
+                        </section>
+
+                        <a href="https://www.natureodyssey.com/endemic-birds-of-sri-lanka.html" class="read-more">Main
+                            source
+                        </a>
+                        <img src="./Images/mammal collage.jpg">
+
+
+
+                    </section>
+
+                </section>
+                <section class="col2">
+                    <h2 x-text="h2Birds"></h2>
+                    <h3 x-text="h3BirdsCrimson">
+                    </h3>
+                    <p x-text="descriptionBirdsCrimson"></p>
+
+
+                    <p><img src="./Images/Crimson-backed-Flameback-2.jpg" alt="kottoruwa"></p>
+
+
+                    <h3 x-text="h3BirdsOwl"></h3>
+                    <p x-text="descriptionBirdsOwl"></p>
+
+
+                    <p><img src="./Images/owl.jpg" alt="owl"></p>
+
+                    <h3 x-text="h3BirdsDrongo"></h3>
+                    <p x-text="descriptionBirdsDrongo"></p>
+
+                    <a href="https://www.natureodyssey.com/endemic-birds-of-sri-lanka.html" class="read-more">Main
+                        source</a>
+
+                    <p><img src="./Images/drigo.jpg" alt="owl"></p>
+
+
+
+
+                </section>
+            </section>
+
+
+
+
+        </section>
+
+    </section>
+    <!-- x-data animal class  -->
+    </section>
+
+
+    <!-- footer part -->
+    <footer class="footer">
+        <div class="section__container footer__container">
+          <div class="footer__col">
+            <h1>"Wildlife-Haven.lk"</h1>
+            <p>
+                Sri Lanka is a wildlife enthusiast's paradise and has plenty to offer visitors interested in animal and birdlife. This tropical island harbours an incredible selection of flora and fauna and is home to some of the finest national parks of the subcontinent. Home to a variety of species including the elusive leopard, regal elephant, blue whale, and a whole host of exotic birds, below is a list of the best places to see sectionerse and exciting wildlife on a tailor-made holiday to Sri Lanka.
+            </p>
+          </div>
+          <div class="footer__col">
+            <h4>Links :</h4>
+            <ul class="footer__links">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About WildLife-Haven</a></li>
+              <li><a href="#">Locaton</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+          </div>
+          <div class="footer__col1">
+            <h4>Stay Updated with Our Newsletter!</h4>
+            <form>
+                <i class="ri-mail-line"></i>
+                <input type="email" placeholder="Enter your email id" required>
+                <button type="submit"><i class="ri-arrow-right-line"></i></button>
+            </form>
+            <div class="social-icons">
+                <h4>Follow Us</h4>
+                <i class="ri-facebook-circle-line"></i>
+                <i class="ri-messenger-line"></i>
+                <i class="ri-whatsapp-line"></i>
+                <i class="ri-instagram-line"></i>
+                <i class="ri-youtube-line"></i>
+            </div>
+          </div>
+        </div>
+        <div class="footerBottom">
+          Copyright © WildLife-Haven.lk. All rights reserved.
+        </div>
+            <!-- sources  -->
+            <!-- https://www.pexels.com/search/forest/ -->
+            <!-- https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css -->
+            <!-- https://en.wikipedia.org/wiki/Wildlife_of_Sri_Lanka#:~:text=Sri%20Lanka%20is%20home%20to,Lankan%20elephant%20and%20the%20sambar. -->
+            <!-- https://www.youtube.com/embed/LTJMbQ_Ojfk?si=LzVcVtxQj81RPth- -->
+            <!-- https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8 -->
+            <!-- https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8/srilankanleopard--d8dbbf72a303e551afe0fd6c44d31a6f.html -->
+            <!-- https://www.dilmahconservation.org/about-animals/mammals--f9925cffabdd604dfab150bbcb49f2a8/asianelephant--52afe4d23aac7695b47d0f4c29c47683.html -->
+            <!-- https://www.youtube.com/embed/y2WsDeI0M8Y?si=Y6u_kNntQztDpiKC -->
+            <!-- https://www.natureodyssey.com/endemic-birds-of-sri-lanka.html -->
+
+    </footer>
+    </section>
+<script src="unEditPageJS/animal.js"></script>
+
+</body>
+
+</html>
